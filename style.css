@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+}
+
+.navbar {
+    background: #b71c1c;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.hero {
+    min-height: 720px;
+    padding-top: 90px;
+    color: white;
+    background: linear-gradient(135deg, #b71c1c, #e53935);
+}
+
+.hero h1 {
+    line-height: 1.15;
+}
+
+.hero h1 span {
+    color: #ffeb3b;
+}
+
+.hero-icon {
+    font-size: 180px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.section-padding {
+    padding: 90px 0;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #b71c1c;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.benefit-card {
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.benefit-card:hover {
+    transform: translateY(-8px);
+}
+
+.card-icon {
+    font-size: 50px;
+    color: #e53935;
+}
+
+.course-card {
+    border: none;
+    border-radius: 10px;
+    min-height: 230px;
+}
+
+.course-card h3 {
+    color: #e53935;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.course-card h5 {
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.cta {
+    padding: 90px 0;
+    color: white;
+    background: #c62828;
+}
+
+.cta h2 {
+    font-weight: 700;
+}
+
+footer {
+    background: #212121;
+    color: #ddd;
+    padding: 50px 0 30px;
+}
+
+footer h5 {
+    color: white;
+    font-weight: 700;
+}
+
+.social-icons i {
+    font-size: 25px;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: auto;
+        padding: 150px 20px 80px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-icon {
+        font-size: 100px;
+    }
+
+    .section-padding {
+        padding: 60px 15px;
+    }
+}
